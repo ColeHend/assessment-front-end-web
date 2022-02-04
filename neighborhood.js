@@ -21,7 +21,7 @@ function populateRecommended() {
 	}
 }
 
-function suggestRandom(params) {
+function suggestRandom() {
     recommended.innerHTML = ""
 	let i = Math.floor(Math.random() * restNames.length)
     let p = document.createElement("p");

@@ -10,7 +10,7 @@ function handleSubmit(evt) {
 
 
 let form = document.querySelector('form#contact');
-let duck = document.querySelector("img")
+let duck = document.querySelector("#duck")
 let colorBtn = document.querySelector("#color");
 let place = document.querySelector("#place")
 let ritual = document.querySelector("#ritual")
